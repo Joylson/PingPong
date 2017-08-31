@@ -1,0 +1,57 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+
+.bola{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: yellow;  
+}
+
+.player{
+    position: absolute;
+    background-color: white;
+    width: 30px;
+    height: 200px; 
+}
+
+
+.player1{
+    left: 0;
+}
+.player2{
+    right: 0;
+}
+
+.placar{
+    position: absolute;
+    width: 204px;
+    height: 102px;
+    top: 10px;
+    left: calc((100%/2) - 100px);
+    background-color: white;    
+}
+
+.result{
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    font: 60px arial;
+    color: white;
+    border: 1px solid black;
+}
+
+.result div{
+    position: relative;
+    top:20px;
+    text-align: center;
+}
